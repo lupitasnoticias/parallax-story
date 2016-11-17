@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A Day in the Life of a Pikachu</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body class="home">
+
+<!-- 
+  <div class="debug">
+    <label><input type="checkbox"> Debug</label>
+  </div> -->
+
+  <main class="parallax">
+	    <section id="group1" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <header>
+	      	<h1 class="title">A Day in the Life of a Pikachu</h1>
+	      </header>
+	    </section>
+	    <section id="group2" class="group">
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer back2"></div>
+	      <div class="parallaxLayer deep2"></div>
+	      <p>What came first: the chicken or the egg? Actually is was a <span class="em">Pokeball!</span></p>
+	    </section>
+	    <section id="group3" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer fore3"></div>
+	      <div class="parallaxLayer fore4"></div>
+	      <p>Alas! <span class="em">Pikachu</span> was born!</p>
+	    </section>
+	    <section id="group4" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer back2"></div>
+	      <div class="parallaxLayer deep2"></div>
+	      <p>Day by day he gains strength. He is learning how to crawl and <span class="em">strike</span> lightning bolts.</p>
+	    </section>
+	    <section id="group5" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer fore3"></div>
+	      <p>The more he interacts with his fellow pokemon the more friendly and social he gets. What a <span class="em">rambunctious</span> Pikachu!</p>
+	    </section>
+	    <section id="group6" class="group">
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer back1"></div>
+	      <div class="parallaxLayer back2"></div>
+	      <div class="parallaxLayer deep2"></div>
+	      <p>A growing Pikachu needs to be sure to eat all of his fruits and veggies! An apple a day keeps <span class="em">Dr. Moss</span> away</p>    
+	    </section>
+	    <section id="group7" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer fore3"></div>
+	      <p>Pikachu loves to dress up as his fellow pokemon friends, especially <span class="em">Charmander.</span> </p>
+	    </section>
+	    <section id="group8" class="group">
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer back1"></div>
+	      <div class="parallaxLayer deep2"></div>
+	      <p>Sometimes when he gets too much energy he starts fights he can't finish them... <span class="em">No, Bulbasor! don't hurt him.</span> </p>
+	    </section>
+	    <section id="group9" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer fore3"></div>
+	      <p>The healing process can be a long, tedius, and painful process. Luckily Pikcahu has some great aids by his side. <span class="em">Meet TRAineR NAME.</span></p>
+	    </section>
+	    <section id="group10" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer fore1"></div>
+	      <div class="parallaxLayer fore2"></div>
+	      <div class="parallaxLayer fore3"></div>
+	      <p>Regardless of Pikachu's state he always pulls through to be the same happy energetic <span class="em">Pokemon</span> the vey next day.</p>
+	    </section>
+    </main>
+
+<!-- debugging script -->
+  <script> 
+    var debugInput = document.querySelector("input");
+    function updateDebugState() {
+        document.body.classList.toggle('debug-on', debugInput.checked);
+    }
+    debugInput.addEventListener("click", updateDebugState);
+    updateDebugState();
+  </script>
+
+</body>
+</html>
