@@ -212,18 +212,13 @@ p {
   background-size: cover;
 }
 
-#group2 .deep2 {
-  background: url(../img/scene/1-deep.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
 #group3 {
   z-index: 7;
   /* slide over group 2 and 4 */
 }
 
 #group3 .base {
-  background: url(../img/scene2.png) 50% 50% no-repeat;
+  background: url(../img/bubble.jpg) 5% 5% no-repeat;
   background-size: cover;
 }
 
@@ -231,22 +226,6 @@ p {
   background: url(../img/pikachu1.png)  no-repeat;
 }
 
-#group3 .fore2 {
-  background: url(../img/scene/2-base.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group3 .fore3 {
-  background: url(../img/scene/2-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group3 .fore4 {
-  background: url(../img/scene/2-back2.png) 50% 50% no-repeat;
-  background-size: cover;
-  transform: scale(1);
-  z-index: 10;
-}
 
 #group4 {
   z-index: 5;
@@ -258,7 +237,7 @@ p {
 }
 
 #group4 .base {
-  background: url(../img/scene3.png) 50% 50% no-repeat;
+  background: url(../img/road.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -266,15 +245,6 @@ p {
   background: url(../img/pikachu2.png)  no-repeat;
 }
 
-#group4 .back2 {
-  background: url(../img/scene/3-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group4 .deep2 {
-  background: url(../img/scene/3-deep.png) 50% 50% no-repeat;
-  background-size: cover;
-}
 
 #group5 {
   z-index: 6;
@@ -286,7 +256,7 @@ p {
 }
 
 #group5 .base {
-  background: url(../img/scene4.png) 50% 50% no-repeat;
+  background: url(../img/leaves.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -294,18 +264,6 @@ p {
   background: url(../img/pikachu3.png)  no-repeat;
   transform: translateZ(0px) scale(1);
 }
-
-#group5 .fore2 {
-  background: url(../img/scene/4-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group5 .fore3 {
-  background: url(../img/scene/4-back2.png) 50% 50% no-repeat;
-  background-size: cover;
-  transform: translateZ(60px) scale(0.8);
-}
-
 #group6 {
   z-index: 4;
   /* slide under group 5 and 7 */
@@ -316,28 +274,13 @@ p {
 }
 
 #group6 .base{
-  background: url(../img/scene5.png) 50% 50% no-repeat;
+  background: url(../img/pink-nature.jpg) 50% 50% no-repeat;
   background-size: cover;
   bottom: -100px;
 }
 
 #group6 .fore1 {
   background: url(../img/pikachu4.png)  no-repeat;
-}
-
-#group6 .back1 {
-  background: url(../img/scene/5-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group6 .back2 {
-  background: url(../img/scene/5-back2.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group6 .deep2 {
-  background: url(../img/scene/5-deep.png) 50% 50% no-repeat;
-  background-size: cover;
 }
 
 #group7 {
@@ -350,23 +293,13 @@ p {
 }
 
 #group7 .base {
-  background: url(../img/scene6.png)  no-repeat;
+  background: url(../img/big-tree.jpg)  no-repeat;
 }
 
 #group7 .fore1 {
   background: url(../img/pikachu5.png)  no-repeat;
   bottom: -100px;
   left: -50px;
-}
-
-#group7 .fore2 {
-  background: url(../img/scene/6-base.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group7 .fore3 {
-  background: url(../img/scene/6-back1.png) 50% 50% no-repeat;
-  background-size: cover;
 }
 
 #group8 {
@@ -379,7 +312,7 @@ p {
 }
 
 #group8 .base {
-  background: url(../img/scene7.png) 50% 50% no-repeat;
+  background: url(../img/desert.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -387,16 +320,6 @@ p {
   background: url(../img/pikachu6.png)  no-repeat;
   transform: translateZ(60px) scale(1.2);
   bottom: -50px;
-}
-
-#group8 .back1 {
-  background: url(../img/scene/7-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group8 .deep2 {
-  background: url(../img/scene/7-deep.png) 50% 50% no-repeat;
-  background-size: cover;
 }
 
 #group9 {
@@ -418,22 +341,9 @@ p {
   transform: translateZ(0px) scale(1);
 }
 
-#group9 .fore2 {
-  background: url(../img/scene/8-back1.png) 50% 50% no-repeat;
-  background-size: cover;
-  transform: translateZ(-50px) scale(1.2);
-  top: 80px;
-}
-
-#group9 .fore3 {
-  background: url(../img/scene/8-back2.png) 50% 50% no-repeat;
-  background-size: cover;
-  transform: scale(1.2);
-  bottom: 100px;
-}
 
 #group10 .base {
-  background: url(../img/scene9.png) 50% 50% no-repeat;
+  background: url(../img/sunflowers.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
